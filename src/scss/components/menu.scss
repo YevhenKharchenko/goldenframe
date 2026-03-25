@@ -1,12 +1,13 @@
 .context-menu {
   display: none;
-  background: #43423d;
+  background: linear-gradient(180deg, #294014 0%, #495f22 100%);
   padding: 20px 16px 32px;
+  border-radius: 0 0 16px 16px;
   max-width: 375px;
   width: 100%;
   margin: 0 auto;
   position: fixed;
-  top: 48px;
+  top: 56px;
   left: 0;
   right: 0;
   transform: none;
@@ -21,8 +22,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 12px;
-  margin-bottom: 73px;
+  gap: 20px;
+  margin-bottom: 72px;
 }
 
 .context-list-item {
@@ -37,8 +38,7 @@
   font-family: 'Mulish', sans-serif;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.5;
-  color: #dbe2f0;
+  color: #eff3e8;
   opacity: 0.8;
   width: 100%;
   max-width: 240px;
@@ -57,7 +57,7 @@
     bottom: 0;
     width: 100%;
     height: 1px;
-    background-color: #d9e9eb;
+    background-color: #eff3e8;
     transform: scaleX(0);
     transform-origin: center;
     transition:
@@ -79,21 +79,21 @@
 .context-privacy-list {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 17px;
+  justify-content: space-between;
+  gap: 16px;
 }
 
 .context-privacy-link {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Oxanium', sans-serif;
-  font-weight: 400;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 300;
   font-size: 14px;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   text-align: center;
-  color: #d9e9eb;
+  color: #eff3e8;
 }
 
 .is-open {

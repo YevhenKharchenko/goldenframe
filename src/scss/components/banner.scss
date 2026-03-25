@@ -1,8 +1,8 @@
 .cookie-banner-section {
-  background: #1c1c1b;
+  background: #131611;
   width: 100%;
   max-width: 375px;
-  padding: 56px 46px;
+  padding: 56px 36px;
   margin: 0 auto;
   position: fixed;
   bottom: 0;
@@ -23,19 +23,19 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1092px;
+    max-width: 1094px;
     margin-left: auto;
     margin-right: auto;
   }
 }
 
 .cookie-banner-text {
-  font-family: 'Oxanium', sans-serif;
+  font-family: 'Mulish', sans-serif;
   font-weight: 300;
   font-size: 14px;
-  line-height: 1.3;
+  line-height: 1.5;
   text-align: center;
-  color: #d9e9eb;
+  color: #eff3e8;
   margin-bottom: 32px;
 
   @include media(desktop) {
@@ -57,13 +57,14 @@
 }
 
 .cookie-decline-btn {
-  border-bottom: 1px solid #d9e9eb;
+  border-bottom: 1px solid #eff3e8;
   padding: 7px 9px;
-  font-family: 'Oxanium', sans-serif;
+  font-family: 'Mulish', sans-serif;
   font-weight: 300;
   font-size: 12px;
+  line-height: 1.5;
   text-align: center;
-  color: #d9e9eb;
+  color: #eff3e8;
   width: 100%;
   max-width: max-content;
 
@@ -73,14 +74,15 @@
 
 .cookie-accept-btn {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-  background: #d9e9eb;
+  background: #eff3e8;
   border-radius: 4px;
   padding: 8px 10px;
-  font-family: 'Oxanium', sans-serif;
+  font-family: 'Mulish', sans-serif;
   font-weight: 400;
   font-size: 12px;
+  line-height: 1.5;
   text-align: center;
-  color: #1c1c1b;
+  color: #131611;
   width: 100%;
   max-width: max-content;
 
