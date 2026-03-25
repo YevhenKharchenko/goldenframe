@@ -1,0 +1,104 @@
+.boosters-section {
+  background: #d9ead3;
+}
+
+.boosters-bg-wrapper {
+  padding-top: 56px;
+  padding-bottom: 56px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/boosters/boosters-bg-mob.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+
+  @include media(desktop) {
+    padding-bottom: 64px;
+    max-width: 1440px;
+    background-image: url(../img/boosters/boosters-bg-desk.jpg);
+  }
+}
+
+.boosters-container {
+}
+
+.boosters-title-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.boosters-title {
+  @include media(desktop) {
+  }
+}
+
+.boosters-text {
+  display: none;
+
+  @include media(desktop) {
+    display: block;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #131611;
+    margin-bottom: 40px;
+  }
+}
+
+.boosters-content-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.boosters-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.boosters-list-item {
+  border-radius: 16px;
+  border: 4px solid transparent;
+  background:
+    linear-gradient(#eff3e8, #eff3e8) padding-box,
+    linear-gradient(180deg, #5b742e 0%, #294014 100%) border-box;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  max-width: 313px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    margin: 0;
+  }
+}
+
+.boosters-img {
+  @include media(desktop) {
+  }
+}
+
+.boosters-item-text {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #294014;
+
+  @include media(desktop) {
+  }
+}

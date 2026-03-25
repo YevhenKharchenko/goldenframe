@@ -1,0 +1,71 @@
+.modes-section {
+  background: #d9ead3;
+
+  @include media(desktop) {
+  }
+}
+
+.modes-bg-wrapper {
+  padding-top: 48px;
+  padding-bottom: 56px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/modes/modes-bg-mob.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+
+  @include media(desktop) {
+    padding-top: 56px;
+    padding-bottom: 64px;
+    max-width: 1440px;
+    background-image: url(../img/modes/modes-bg-desk.jpg);
+  }
+}
+
+.modes-container {
+}
+
+.modes-title-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.modes-title {
+  @include media(desktop) {
+  }
+}
+
+.modes-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+  }
+}
+
+.modes-text {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  color: #131611;
+
+  @include media(desktop) {
+    font-size: 16px;
+    max-width: 354px;
+  }
+}
+
+.modes-img {
+  @include media(desktop) {
+    min-width: 240px;
+  }
+}

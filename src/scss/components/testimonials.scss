@@ -1,0 +1,161 @@
+.testimonials-section {
+  @include media(desktop) {
+  }
+}
+
+.testimonials-bg-wrapper {
+  padding-top: 56px;
+  padding-bottom: 302px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/testimonials/testimonials-bg-mob.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: auto;
+  overflow: hidden;
+  position: relative;
+
+  @include media(desktop) {
+    padding-bottom: 336px;
+    max-width: 1440px;
+    background-image: url(../img/testimonials/testimonials-bg-desk.png);
+  }
+}
+
+.testimonials-container {
+}
+
+.testimonials-title {
+  @include media(desktop) {
+  }
+}
+
+.testimonials-swiper-container {
+  max-width: 293px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    max-width: 1440px;
+  }
+}
+
+.testimonials-swiper-container.show {
+  visibility: visible;
+}
+
+.testimonials-swiper-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.testimonials-slide {
+  border-radius: 16px;
+  border: 2px solid transparent;
+  background:
+    linear-gradient(#d3e3e7, #d3e3e7) padding-box,
+    linear-gradient(180deg, #5b742e 0%, #294014 100%) border-box;
+  padding: 22px;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  max-width: 293px;
+  min-height: 286px;
+
+  @include media(desktop) {
+  }
+}
+
+.testimonials-img {
+  margin-bottom: 12px;
+
+  @include media(desktop) {
+  }
+}
+
+.testimonials-name {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+  color: #131611;
+  margin-bottom: 16px;
+
+  @include media(desktop) {
+  }
+}
+
+.testimonials-text {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+  color: #131611;
+
+  @include media(desktop) {
+  }
+}
+
+.testimonials-img-desk {
+  display: none;
+
+  @include media(desktop) {
+    display: block;
+    margin-top: 104px;
+    margin-left: auto;
+    margin-right: 113px;
+  }
+}
+
+.controls {
+  display: none;
+
+  @include media(desktop) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+    gap: 18px;
+    position: absolute;
+    top: 271px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+}
+
+.arrow-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+
+  &:active {
+    transform: scale(0.9);
+  }
+
+  @include media(desktop) {
+    &:hover {
+      transform: scale(1.1);
+
+      .arrow-icon {
+      }
+    }
+  }
+
+  &[disabled] {
+    cursor: not-allowed;
+    opacity: 0.5;
+
+    &:hover {
+      transform: none;
+    }
+  }
+}
+
+.arrow-icon {
+}

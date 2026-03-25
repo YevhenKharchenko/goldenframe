@@ -1,0 +1,92 @@
+.features-section {
+}
+
+.features-bg-wrapper {
+  padding-top: 48px;
+  padding-bottom: 56px;
+
+  @include media(desktop) {
+    padding-top: 56px;
+    padding-bottom: 64px;
+  }
+}
+
+.features-container {
+}
+
+.features-title-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.features-title {
+  @include media(desktop) {
+  }
+}
+
+.features-content-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 10px;
+
+  @include media(desktop) {
+    gap: 24px;
+  }
+}
+
+.features-list-item {
+  border-radius: 16px;
+  border: 4px solid transparent;
+  background:
+    linear-gradient(#eff3e8, #eff3e8) padding-box,
+    linear-gradient(180deg, #5b742e 0%, #294014 100%) border-box;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  max-width: 165px;
+
+  @include media(desktop) {
+    padding: 20px;
+    gap: 12px;
+    max-width: 313px;
+  }
+}
+
+.features-img {
+  @include media(desktop) {
+  }
+}
+
+.features-item-title {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  color: #5b742e;
+
+  @include media(desktop) {
+    font-size: 16px;
+  }
+}
+
+.features-item-text {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+  color: #131611;
+
+  @include media(desktop) {
+  }
+}

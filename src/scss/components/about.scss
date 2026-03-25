@@ -1,15 +1,16 @@
 .about-section {
+  background: #eff3e8;
+
   @include media(desktop) {
   }
 }
 
 .about-bg-wrapper {
-  padding-top: 40px;
+  padding-top: 48px;
   padding-bottom: 56px;
 
   @include media(desktop) {
-    padding-top: 48px;
-    padding-bottom: 64px;
+    padding-top: 56px;
   }
 }
 
@@ -27,37 +28,34 @@
 }
 
 .about-content-wrapper {
-  background: #6e5d4c;
-  border-radius: 4px;
-  padding: 40px 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 24px;
 
   @include media(desktop) {
     flex-direction: row;
     justify-content: center;
-    gap: 48px;
+    gap: 40px;
   }
 }
 
 .about-text {
-  font-family: 'Oxanium', sans-serif;
+  font-family: 'Mulish', sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
   text-align: center;
-  color: #d9e9eb;
+  color: #131611;
 
   @include media(desktop) {
     font-size: 16px;
-    max-width: 343px;
+    max-width: 354px;
   }
 }
 
 .about-img {
   @include media(desktop) {
-    min-width: 260px;
+    min-width: 250px;
   }
 }

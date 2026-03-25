@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /private/
 Allow: /
 
-Sitemap: https://wideharvest.online/sitemap.xml
+Sitemap: https://goldenframe.pro/sitemap.xml
