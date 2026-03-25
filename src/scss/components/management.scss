@@ -1,0 +1,95 @@
+.management-section {
+}
+
+.management-bg-wrapper {
+  padding-top: 40px;
+  padding-bottom: 56px;
+
+  @include media(desktop) {
+    padding-top: 48px;
+    padding-bottom: 64px;
+  }
+}
+
+.management-container {
+}
+
+.management-title-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.management-title {
+  @include media(desktop) {
+  }
+}
+
+.management-text {
+  font-family: 'Oxanium', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #1c1c1b;
+  margin-bottom: 32px;
+
+  @include media(desktop) {
+    font-size: 16px;
+    max-width: 942px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+  }
+}
+
+.management-content-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.management-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+
+  @include media(desktop) {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+}
+
+.management-list-item {
+  background: #6e5d4c;
+  border-radius: 4px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  max-width: 164px;
+
+  @include media(desktop) {
+    padding: 24px;
+    max-width: 260px;
+  }
+}
+
+.management-img {
+  @include media(desktop) {
+  }
+}
+
+.management-item-text {
+  font-family: 'Oxanium', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+  color: #d9e9eb;
+
+  @include media(desktop) {
+    font-size: 16px;
+  }
+}

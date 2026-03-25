@@ -1,0 +1,95 @@
+.fields-section {
+}
+
+.fields-bg-wrapper {
+  padding-top: 40px;
+  padding-bottom: 56px;
+
+  @include media(desktop) {
+    padding-top: 48px;
+    padding-bottom: 64px;
+  }
+}
+
+.fields-container {
+}
+
+.fields-title-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.fields-title {
+  @include media(desktop) {
+  }
+}
+
+.fields-text {
+  font-family: 'Oxanium', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  color: #1c1c1b;
+  margin-bottom: 32px;
+
+  @include media(desktop) {
+    font-size: 16px;
+    max-width: 942px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+  }
+}
+
+.fields-content-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.fields-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+
+  @include media(desktop) {
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+}
+
+.fields-list-item {
+  background: #6e5d4c;
+  border-radius: 4px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  max-width: 164px;
+
+  @include media(desktop) {
+    padding: 24px;
+    max-width: 260px;
+  }
+}
+
+.fields-img {
+  @include media(desktop) {
+  }
+}
+
+.fields-item-text {
+  font-family: 'Oxanium', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+  color: #d9e9eb;
+
+  @include media(desktop) {
+    font-size: 16px;
+  }
+}

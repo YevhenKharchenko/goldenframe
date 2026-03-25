@@ -1,0 +1,91 @@
+:root {
+  font-family: 'Mulish', sans-serif;
+  color: $_main_color;
+  background: $_main_bg_color;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.container {
+  width: 100%;
+  max-width: 375px;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include media(desktop) {
+    max-width: 1440px;
+    padding-right: 120px;
+    padding-left: 120px;
+  }
+}
+
+.section {
+  scroll-margin-top: 40px;
+
+  @include media(desktop) {
+    scroll-margin-top: 50px;
+  }
+}
+
+.section-title-wrapper {
+  background: linear-gradient(180deg, #5b742e 0%, #294014 100%);
+  padding-top: 56px;
+  padding-bottom: 16px;
+
+  @include media(desktop) {
+    padding-top: 64px;
+  }
+}
+
+.section-title {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #eff3e8;
+
+  @include media(desktop) {
+    font-size: 16px;
+  }
+}
+
+.section-subtitle {
+  text-shadow: 1px 2px 2px 0 rgba(41, 64, 20, 0.6);
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  text-align: center;
+  background: linear-gradient(180deg, #5b742e 0%, #294014 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 48px;
+
+  @include media(desktop) {
+  }
+}

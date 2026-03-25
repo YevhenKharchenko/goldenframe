@@ -1,0 +1,30 @@
+.privacy-header {
+  background: #d9e9eb;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+
+  @include media(desktop) {
+  }
+}
+
+.privacy-header-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-family: 'Oxanium', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  color: #1c1c1b;
+  max-width: max-content;
+
+  @include media(desktop) {
+  }
+}
+
+.arrow-back-icon {
+}
